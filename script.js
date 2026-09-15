@@ -54,3 +54,22 @@ if (tempC >= 20) {
 } else {
   console.log("Kallt");
 }
+
+console.log("--------------------------------------------");
+
+const routes = ["Linje 2", "Linje 5", "Linje 8"];
+
+for (const route in routes) {
+  console.log("Avgår: " + route);
+}
+
+function triple(n) {
+  return n * 3;
+}
+console.log(triple(8));
+
+// Nedan är arrow-funktion som gör samma sak.
+const triple2 = (n) => n * 3; // samma jobb, annat sätt att formulera
+console.log(triple2(8));
+
+console.log("--------------------------------------------");
