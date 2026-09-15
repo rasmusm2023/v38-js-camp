@@ -1,3 +1,5 @@
+/*
+
 const eventName = "Aurora Live";
 let ticketCount = 0;
 const isVip = false;
@@ -94,3 +96,41 @@ console.log(todoObject.title);
 
 const numbersMultiplication = (a, b) => a * b;
 console.log(numbersMultiplication(10, 15));
+
+console.log("-----------------------------------------------------");
+
+
+*/
+
+let eventName = "Aurora Live";
+eventName = "Nord Glow";
+console.log(eventName);
+
+function totalMinutes(hours, minutes) {
+  return hours * 60 + minutes;
+}
+
+console.log(totalMinutes(1, 30));
+
+const cities = ["Malmö", "Göteborg", "Umeå"];
+console.log(cities[2]); // fel index
+console.log(cities.length);
+
+const product = { title: "Hörlurar", stock: 4 };
+console.log(product.title);
+
+if (5 === "5") {
+  console.log("lösa jämförelsen ljuger");
+}
+
+for (const city of cities) {
+  console.log(city);
+}
+
+/*
+eventName ska kunna bytas till Nord Glow utan krasch — välj rätt deklarationsord.
+totalMinutes(1, 30) ska logga 90 (inte undefined).
+Logga sista elementet i cities utan hårdkodat fel-index.
+Logga produktens titel via korrekt nyckel.
+Byt till strikt jämförelse så 5 och "5" inte räknas som lika.
+*/
