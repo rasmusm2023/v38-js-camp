@@ -73,3 +73,24 @@ const triple2 = (n) => n * 3; // samma jobb, annat sätt att formulera
 console.log(triple2(8));
 
 console.log("--------------------------------------------");
+
+const miniList = ["Dammsuga", "Laga mat", "Diska", "Städa"];
+
+for (item of miniList) {
+  console.log(item);
+}
+
+const todoObject = { title: "Dammsuga", urgency: 1, isOpen: true };
+if (todoObject.urgency === 1) {
+  console.log("Väldigt akut!");
+} else if (todoObject === 2) {
+  console.log("Behöver göras snart");
+} else {
+  console.log("Kan göras senare.");
+}
+
+console.log(todoObject.urgency);
+console.log(todoObject.title);
+
+const numbersMultiplication = (a, b) => a * b;
+console.log(numbersMultiplication(10, 15));
