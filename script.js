@@ -15,3 +15,31 @@ function totalMinutes(hours, minutes) {
   return hours * 60 + minutes;
 }
 console.log(totalMinutes(2, 15));
+
+const isMember = "true";
+let shipping = 79;
+
+if (isMember === true) {
+  shipping = 0;
+} else {
+  console.log("Ordinarie frakt");
+}
+
+console.log("Shipping");
+
+const cities = ["Malmö", "Göteborg", "Stockholm"];
+console.log(cities[0]);
+console.log(cities.length);
+
+const product = {
+  title: "Hörlurar",
+  stock: 4,
+  inStock: true,
+};
+
+console.log(product.title);
+console.log(product.inStock);
+
+for (const city in cities) {
+  console.log(city);
+}
