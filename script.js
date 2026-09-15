@@ -43,3 +43,14 @@ console.log(product.inStock);
 for (const city in cities) {
   console.log(city);
 }
+
+console.log("--------------------------------------------");
+
+const tempC = 12;
+if (tempC >= 20) {
+  console.log("Varmt");
+} else if (tempC >= 10) {
+  console.log("Ljummet");
+} else {
+  console.log("Kallt");
+}
